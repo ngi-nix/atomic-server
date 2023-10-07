@@ -3,7 +3,7 @@
   "author": "Joep Meindertsma",
   "description": "Atomic Data React library",
   "dependencies": {
-    "@tomic/lib": "workspace:*"
+    "@tomic/lib": "0.35.1"
   },
   "devDependencies": {
     "typescript": "^4.8"
