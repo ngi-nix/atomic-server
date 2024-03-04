@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "module": "ES2022",
+    "module": "NodeNext",
     "lib": [
       // Not sure if DOM should be here. Lib should also work without a browser!
       "DOM",
@@ -10,7 +10,7 @@
       "ESNext"
     ],
     // Enforces `.js` relative imports, which is needed because tsc doesn't update filenames
-    "moduleResolution": "nodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
